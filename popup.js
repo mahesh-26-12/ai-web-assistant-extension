@@ -189,10 +189,3 @@ document.getElementById("copy").addEventListener("click", () => {
   alert("Copied to clipboard!");
 });
 
-chrome.storage.local.set({ lastResult: result });
-
-chrome.storage.local.get(["lastResult"], (data) => {
-  if (data.lastResult) {
-    document.getElementById("result").value = data.lastResult;
-  }
-});
