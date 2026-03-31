@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>🤖  AI Web Assistant Chrome Extension</h2>
+
+  <button id="summarize">📄 Summarize</button>
+  <button id="questions">❓ Generate Questions</button>
+
+  <input id="questionInput" placeholder="Ask a question...">
+
+  <button id="ask">💬 Ask</button>
+
+  <!-- Loader -->
+  <div id="loader" style="display:none;">⏳ Processing...</div>
+
+  <!-- Result -->
+  <textarea id="result" readonly></textarea>
+
+  <!-- Copy Button -->
+  <button id="copy">📋 Copy</button>
+
+    <script src="popup.js"></script>
+
+</body>
+</html>
