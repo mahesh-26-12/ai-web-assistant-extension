@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "YOUR_API_KEY_HERE";
 
 
 
